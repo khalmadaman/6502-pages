@@ -17,10 +17,10 @@ int main(void)
     printf("Press any letter to quit\n");
     printf("Enter the page you want to display"
             " from page 0 to page 255:____\b\b\b\b");
-
+	
     while(scanf("%3ld", &paged) == 1)        //check the return value of scanf()
     {
-         fpurge(stdin);
+
         switch(paged)   
         {
               case 0: printf("\n%75s\n","The famous Zero Page");        //If 0 is entered the text is display
