@@ -7,6 +7,18 @@ A small C program that displays the full 6502 memory map (0x0000–0xFFFF) as 25
 The 6502 organizes its 64KB address space into 256 "pages," each containing 256 addresses. 
 This program prints one page at a time, showing each address in two rows: decimal offsets (0–255) on top, and the corresponding hex address ($0000–$00FF, etc.) below.
 
+## Langage
+
+C
+
+## Building
+
+Clang pages6502_BanckEnd.c -o pages6502_BackEnd
+
+## Running
+
+./pages6502_BackEnd
+
 ## Example output
                                        
                                                         The famous Zero Page
